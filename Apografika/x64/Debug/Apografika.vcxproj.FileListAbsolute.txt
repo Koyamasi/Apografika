@@ -1,0 +1,8 @@
+C:\Users\apost\Commertial dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.AssemblyReference.cache
+C:\Users\apost\Commertial dev\Apografika\Apografika\x64\Debug\Apografika.StarterPage.resources
+C:\Users\apost\Commertial dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.GenerateResource.cache
+C:\Users\apost\Commertial dev\Apografika\Apografika\x64\Debug\Apografika.DataInputForm.resources
+E:\Dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.AssemblyReference.cache
+E:\Dev\Apografika\Apografika\x64\Debug\Apografika.DataInputForm.resources
+E:\Dev\Apografika\Apografika\x64\Debug\Apografika.StarterPage.resources
+E:\Dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.GenerateResource.cache

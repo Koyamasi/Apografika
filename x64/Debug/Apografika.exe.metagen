@@ -1,0 +1,47 @@
+  Apografika.DataInputForm.resources - Embedded, ContainedInManifestFile, 
+  Apografika.StarterPage.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Apografika, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Apografika.New_data: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.DateTime, System.String, System.String, Int32, Double, Double, Apografika.ProductType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.DateTime purchaseDate : Public
+    System.String supplier : Public
+    System.String productName : Public
+    Int32 quantity : Public
+    Double init_price : Public
+    Double final_price : Public
+    Apografika.ProductType productType : Public
+Class Apografika.Data_handling: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    GetInstance(): PrivateScope, Public, Static, HideBySig
+    AddData(New_data): PrivateScope, Public, HideBySig
+    GetAllData(): PrivateScope, Public, HideBySig
+Class Apografika.DataInputForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetEnteredData(): PrivateScope, Public, HideBySig
+Struct Apografika.ProductType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Apografika.ProductType Type1 = 0 : Public, Static, Literal, HasDefault
+    Apografika.ProductType Type2 = 1 : Public, Static, Literal, HasDefault
+    Apografika.ProductType Type3 = 2 : Public, Static, Literal, HasDefault
+Class Apografika.StarterPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
