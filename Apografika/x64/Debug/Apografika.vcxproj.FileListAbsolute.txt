@@ -6,3 +6,7 @@ E:\Dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.AssemblyReference.cach
 E:\Dev\Apografika\Apografika\x64\Debug\Apografika.DataInputForm.resources
 E:\Dev\Apografika\Apografika\x64\Debug\Apografika.StarterPage.resources
 E:\Dev\Apografika\Apografika\x64\Debug\Apografika.vcxproj.GenerateResource.cache
+C:\Users\apost\Desktop\Koteas_software\Apografika\Apografika\x64\Debug\Apografika.vcxproj.AssemblyReference.cache
+C:\Users\apost\Desktop\Koteas_software\Apografika\Apografika\x64\Debug\Apografika.DataInputForm.resources
+C:\Users\apost\Desktop\Koteas_software\Apografika\Apografika\x64\Debug\Apografika.StarterPage.resources
+C:\Users\apost\Desktop\Koteas_software\Apografika\Apografika\x64\Debug\Apografika.vcxproj.GenerateResource.cache

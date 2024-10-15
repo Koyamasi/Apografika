@@ -111,7 +111,7 @@ namespace Apografika {
         this->dataGridViewComboBoxColumn7->HeaderText = L"Product Type";
         this->dataGridViewComboBoxColumn7->Name = L"productTypeColumn"; 
         this->dataGridViewComboBoxColumn7->Items->AddRange(gcnew cli::array<System::Object^>(3) {
-            L"Φαγητό", L"Ποτό", L"Καφές"
+            L"Food", L"Drink", L"Buffet"
         });
 
         // 
@@ -165,13 +165,13 @@ namespace Apografika {
                 String^ productTypeStr = row->Cells[6]->Value->ToString();
                 ProductType productType;
 
-                if (productTypeStr == L"Φαγητό") {
+                if (productTypeStr == L"Food") {
                     productType = ProductType::Type1;
                 }
-                else if (productTypeStr == L"Ποτό") {
+                else if (productTypeStr == L"Drink") {
                     productType = ProductType::Type2;
                 }
-                else if (productTypeStr == L"Καφές") {
+                else if (productTypeStr == L"Buffet") {
                     productType = ProductType::Type3;
                 }
 
@@ -200,7 +200,6 @@ namespace Apografika {
         newRow->Cells[3]->Value = 0; // Default quantity
         newRow->Cells[4]->Value = 0; // Default quantity
         newRow->Cells[5]->Value = 0; // Default quantity
-        newRow->Cells[6]->Value = L"Φαγητό"; // Correct index for product type as string
         dataGridView->Rows->Add(newRow);
     }
 }
